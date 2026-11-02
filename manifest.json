@@ -1,0 +1,8 @@
+{
+  "name": "Quiet Ville",
+  "short_name": "Quiet Ville",
+  "start_url": "/QUITE-VILLE-GAME/",
+  "scope": "/QUITE-VILLE-GAME/",
+  "display": "fullscreen",
+  "orientation": "landscape"
+}
