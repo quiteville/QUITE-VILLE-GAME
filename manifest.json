@@ -1,8 +1,0 @@
-{
-  "name": "Quiet Ville Studio",
-  "short_name": "Quiet Ville Studio",
-  "start_url": "/QUITE-VILLE-GAME/",
-  "scope": "/QUITE-VILLE-GAME/",
-  "display": "fullscreen",
-  "orientation": "landscape"
-}
