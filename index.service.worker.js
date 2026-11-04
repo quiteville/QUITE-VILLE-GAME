@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1793809686|17101605538';
+const CACHE_VERSION = '1793811866|1754447718';
 /** @type {string} */
 const CACHE_PREFIX = 'Quiet Ville Stud-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
