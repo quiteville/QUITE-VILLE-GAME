@@ -345,8 +345,23 @@
               },
             })
             .then(() => {
-              setStatusMode("hidden");
-            }, displayFailureNotice);
+  const progress = document.getElementById("status-progress");
+  if (progress) {
+    progress.remove();
+  }
+
+  const loadingNote = document.getElementById("qv-loading-note");
+  if (loadingNote) {
+    loadingNote.remove();
+  }
+
+  const status = document.getElementById("status");
+  if (status) {
+    status.remove();
+  }
+
+  initializing = false;
+}, displayFailureNotice);
         }
       })();
     </script>
