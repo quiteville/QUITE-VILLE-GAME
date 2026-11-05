@@ -18,7 +18,7 @@
 
       body {
         color: white;
-        background-color: black;
+        background-color: #1b1b2c;
         overflow: hidden;
         touch-action: none;
       }
@@ -97,6 +97,28 @@
         padding: 1rem;
         text-align: center;
         z-index: 1;
+      }
+
+      #qv-loading-note {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 8%;
+        z-index: 99999;
+
+        display: flex;
+        justify-content: center;
+
+        pointer-events: none;
+
+        font-family: Arial, sans-serif;
+        color: white;
+        text-align: center;
+      }
+
+      .qv-loading-card {
+        width: min(520px, 88vw);
+        padding: 16px 22px;
       }
     </style>
     <link
