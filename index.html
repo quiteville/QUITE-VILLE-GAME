@@ -80,12 +80,15 @@
       }
 
       #status-progress {
-        bottom: 10%;
-        width: 50%;
-        margin: 0 auto;
-		display: flex;
-        justify-content: center;
-      }
+	bottom: 7%;
+	width: min(520px, 70vw);
+	height: 8px;
+
+	margin: 0 auto;
+
+	border-radius: 999px;
+	overflow: hidden;
+}
 
       #status-notice {
         background-color: #5b3943;
@@ -102,26 +105,64 @@
       }
 
       #qv-loading-note {
-        position: fixed;
-        left: 0;
-        right: 0;
-        bottom: 8%;
-        z-index: 99999;
+#qv-loading-note {
+	position: absolute;
+	left: 50%;
+	bottom: 14%;
+	transform: translateX(-50%);
+	z-index: 10;
 
-        display: flex;
-        justify-content: center;
+	width: min(560px, 88vw);
 
-        pointer-events: none;
+	font-family: Arial, sans-serif;
+	color: white;
+	text-align: center;
 
-        font-family: Arial, sans-serif;
-        color: white;
-        text-align: center;
+	pointer-events: none;
+}
+
+.qv-loading-card {
+	padding: 18px 24px;
+
+	background: rgba(24, 25, 38, 0.88);
+
+	border: 1px solid rgba(255, 255, 255, 0.12);
+	border-radius: 18px;
+
+	box-shadow:
+		0 12px 32px rgba(0, 0, 0, 0.35);
+
+	backdrop-filter: blur(8px);
+}
+
+.qv-loading-title {
+	font-size: 19px;
+	font-weight: 800;
+	letter-spacing: 1px;
+
+	margin-bottom: 8px;
+
+	color: #c9b7ff;
+}
+
+.qv-loading-line {
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+.qv-loading-small {
+	margin-top: 8px;
+
+	font-size: 12px;
+	line-height: 1.4;
+
+	opacity: 0.72;
+}
       }
 
       .qv-loading-card {
         width: min(520px, 88vw);
         padding: 16px 22px;
-		margin-top: 50px;
       }
     </style>
     <link
